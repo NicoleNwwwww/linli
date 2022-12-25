@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width" />
+    <title>邻里川菜馆</title>
+    <link href="../static/image/logo.png" rel="icon" type="image/x-ico">
+    <link href="../static/lib/layui/css/layui.css" rel="stylesheet" type="text/css">
+    <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+    <link href="../static/css/index_style.css" rel="stylesheet" type="text/css" >
+    <link href="../static/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" >
+    <link href="../static/css/sjy_font.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body>
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content" style="background-color: #D8CFCF">
+                <div class="modal-header">
+                    <h5 class="modal-title">精选评价</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="playPause()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+
+                </div>
+                <div class="modal-header" style="margin-top: 0.5rem" >
+                    <div style="text-align: left;display: inline-block"><img src="../static/image/wenzi.png" alt="" style="height: auto;width: 70px">
+                    </div>
+                    <div style="text-align: right;!important;display: inline-block;font-family: Roboto;font-size: 100%">大雯子<br>来自川渝地区的沪漂一枚 </div>
+                </div>
+                <div class="modal-body">
+
+                    <video src="../static/video/video.mov"  controls="controls" poster="../static/image/12-23-post.jpg" class="img-fluid" alt="" id="video1" width="500" height="auto"></video><br><br>
+
+                    <p>作为在川渝地区长大的娃我无辣不欢，奈何上海这边的菜都是偏甜的，我时不时胃里就刺挠着想要吃点辣的，像半步癫那些有名的连锁川菜确实很热闹，火辣辣的很爽，但是总觉得缺少一些烟火气，还是想念我妈做的那一口。记得有一年冬天的晚上我回出租屋的路上，加班了一天特别心累，那天也特别冷，正好接到我爸妈的电话，问我今年什么时候放假回家、最近过得怎么样，我忍着眼泪告诉他们一切都好，其实那一刻特别想立刻买张机票回家去，但是生活的压力让我不得不报喜不报忧。接完电话过红绿灯的时候正好在路边看到这家川菜店，里面热火朝天的氛围和窗户上氤氲的雾气吸引了我，我点了盘在家最爱的红油抄手和老妈蹄花，这熟悉的味道让我瞬间梦回上学时和朋友们在成都的巷子里吃抄手的无忧日子。此后每当我想家的时候都会再来这个路口，尝一口邻里的家常川菜，这里成了我的能量站能让我继续元气满满地奋斗。</p>
+                </div>
+                <div class="modal-footer">
+<!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="playPause()">关闭</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content"  style="background-color: #D8CFCF">
+                <div class="modal-header">
+                    <h5 class="modal-title">精选评价<br></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-header" style="margin-top: 0.5rem" >
+                    <div style="text-align: left;display: inline-block"><img src="../static/image/2.png" alt="" style="height: auto;width: 70px">
+                    </div>
+                    <div style="text-align: right;!important;display: inline-block;font-family: Roboto;font-size: 100%">小木头<br>复旦大学大一新生一枚呀 </div>
+                </div>
+                <div class="modal-body">
+                    <img src="../static/image/精选点评2.jpg" class="img-fluid"  width="500" height="auto"><br><br>
+                    <p>第一次来邻里是我们宿舍一起团建，当时大家都不太熟就找了学校附近一家老牌口碑餐馆。可能是川渝人天生就有的热情和真诚也浇筑在川菜中了，第一次吃饭的过程就让我们放下防备迅速熟络起来，吃着不同口味的菜大家聊着自己喜欢的菜系和平时吃饭的口味，畅聊小时候的趣事，寻找着彼此间的共同点。邻里是一家融合了大家普遍口味的川菜，会有很经典很特色的火辣川菜，也会有改良后让不太能吃辣的朋友可以接受又颇具特色的菜色，价格也很友好，后来就成了我们宿舍的第二食堂，在赶ddl的间歇、在考试后的放松、在周末的闲暇，我们都会来探索它丰富的菜单。</p>
+                </div>
+                <div class="modal-footer">
+<!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="playPause()">关闭</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content"  style="background-color: #D8CFCF">
+                <div class="modal-header">
+                    <h5 class="modal-title">精选评价</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                </div>
+                <div class="modal-header" style="margin-top: 0.5rem" >
+                    <div style="text-align: left;display: inline-block"><img src="../static/image/3.png" alt="" style="height: auto;width: 70px">
+                    </div>
+                    <div style="text-align: right;!important;display: inline-block;font-family: Roboto;font-size: 100%">许氏豌豆<br>复旦大学毕业生 </div>
+                </div>
+                <div class="modal-body">
+                    <img src="../static/image/精选点评3.jpg" class="img-fluid" alt="" id="video3" width="500" height="auto"></img><br><br>
+                    <p>今晚下车的时候看到“邻里川菜馆”的招牌，总是会想到和室友、好朋友，甚至一个人快乐川菜的夜晚。坐在邻里靠窗的位子，眺望五角场的光污染，万达边上的楼都装上了「星辰灯带」，污染更严重了。想起来大学时候和室友来这里点上一份水煮牛肉、酸菜鱼的时候，边上的小女孩们正盘算着待会儿要去NEO喝什么酒。听得出她们因为陌生而产生的局促和因为即将凑热点成功而生的兴奋。20点一到就起身离开去NEO了。复旦人，跑得快，爱热点，果然适合搞新闻。远远经过NEO，人好多。李老师问早点有这么多人，NEO是不是就不会倒闭。我说，复旦人不愧是你，过去有光草小幸运，今天有NEO东京茶。「念念独行去」的下一句本来是「归来亦有路」，现在是「归来请出示复活码」。</p>
+                </div>
+                <div class="modal-footer">
+<!--                    <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="playPause()">关闭</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="menu" class="hover_animation menu_open" data-mark="false"  >
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="navgation" class="navgation navgation_close"  >
+        <ul class="point">
+            <li><a href="index.html">关于邻里</a></li>
+            <li><a href="picture.html">拿手好菜</a></li>
+            <li><a href="booking.html">座位预订</a></li>
+            <li><a href="archives.html">邻里故事</a></li>
+        </ul>
+        <div class="logo" >
+            <div >
+                <img src="../static/image/logo.png" alt="" style="height: auto;width: 150px">
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="fp-tablecell">
+            <div class="page1">
+                <div class="nav wow zoomIn" data-wow-duration="2s">
+                    <h1 style=" text-shadow: 2px 2px 2px #622D2E;">邻里川菜馆</h1>
+                        <p style="font-size: 16px!important; text-shadow: 2px 2px 2px #622D2E;">比川菜更浓的是邻里的味道</p>
+                </div>
+                <a class="next wow fadeInUp" data-wow-duration="2s" id="next"></a>
+         </div>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="fp-tablecell">
+            <div class="page4">
+                <div class="warp-box">
+                    <div class="about">
+                        <div class="inner">
+                            <h1>关于邻里</h1>
+                        <p class="wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight; color: #999;font-size: 16px!important;"> 生活的味道，是放学后跑回家中，妈妈细细熬煮搅匀的鸡汤<br>是逢年过节时，邻里亲朋的温情慰问<br>是这片广阔土地上，千年绵延的袅袅炊烟<br>一桌亲友，几道家常小菜，是千年来中国人最朴素的饮食记忆——<br>不在精细，不在高级，而在邻里、故友、亲朋之间。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="section" id="section3">
+
+    <div class="fp-tablecell">
+        <div class="page3">
+            <div class="warp-box">
+                <div class="warp">
+                    <div class="inner">
+                        <div class="links">
+                            <ul>
+                                <li class="wow fadeInLeft"><a style="font-size: 16px!important;" href="picture.html">拿手好菜</a></li>
+                                <li class="wow fadeInRight"><a style="font-size: 16px!important;" href="booking.html">座位预订</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section" id="section2">
+
+
+    <div class="fp-tablecell">
+        <div class="page2">
+            <div class="warp-box">
+                <div class="new-article">
+                    <div class="inner wow fadeInDown" data-wow-delay=".2s">
+                        <h1>精选点评</h1>
+                        <div style="color: #999">
+                        <p style="font-size: 16px!important;">
+                            邻里·共忆之景
+                        <br>定格每一寸灿烂烟火</p>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="layui-row">
+
+                    <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" style="padding: 0 10px;visibility: visible;animation-name: fadeInUp;">
+                        <div class="single-news">
+                            <div class="news-head">
+                                    <img src="../static/image/精选点评2.jpg" alt="">
+                                    <a href="#" class="link"  data-toggle="modal" data-target="#exampleModalCenter1"><i class="fa fa-link"></i></a>
+                            </div>
+                            <div class="news-content">
+                                <p style="font-family: nico!important;">邻里是我们宿舍的第二食堂，我们都会来探索它丰富的菜单。</p>
+                                <a href="#"  data-toggle="modal" data-target="#exampleModalCenter1" class="btn">阅读更多</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" style="padding: 0 10px;visibility: visible;animation-name: fadeInUp;" >
+                        <div class="single-news">
+                            <div class="news-head">
+                                <img src="../static/image/精选点评1.jpg" alt="" href="#" data-toggle="modal" data-target="#exampleModalCenter2">
+                                <a href="#" class="link"  data-toggle="modal" data-target="#exampleModalCenter2"><i class="fa fa-link"></i></a>
+
+                            </div>
+                            <div class="news-content">
+                                <p style="font-family: nico!important;">每当我想念家乡的味道时，邻里地道的火辣川味总能给我一丝慰藉。</p>
+                                <a href="#"  data-toggle="modal" data-target="#exampleModalCenter2" class="btn">阅读更多</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" style="padding: 0 10px;visibility: visible;animation-name: fadeInUp;" >
+                        <div class="single-news">
+                            <div class="news-head">
+                                <img src="../static/image/精选点评3.jpg" alt="" href="#" data-toggle="modal" data-target="#exampleModalCenter3">
+                                <a href="#" class="link"  data-toggle="modal" data-target="#exampleModalCenter3"><i class="fa fa-link"></i></a>
+
+                            </div>
+                            <div class="news-content">
+                                <p style="font-family: nico!important;">&nbsp;下车的时候看到“邻里川菜馆”的招牌，总是会想到和室友、好朋友，甚至一个人快乐川菜的夜晚。</p>
+                                <a href="#"  data-toggle="modal" data-target="#exampleModalCenter3" class="btn">阅读更多</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <footer class="footer wow fadeInUp" id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="layui-row">
+                    <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                        <div class="single-widget about">
+                            <div class="footer-logo">
+                                <h2 style="font-size: 16px;font-family: Roboto">邻里川菜馆</h2>
+                            </div>
+                            <p>比川菜更浓的是邻里的味道</p>
+                        </div>
+                    </div>
+
+
+                    <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                        <div class="single-widget">
+                            <h2 style="font-size: 16px;font-family: Roboto">了解更多</h2>
+                            <ul class="social-icon">
+                                <li class="active"><a href="index.html"><i class="fa fa-book"></i>关于邻里</a></li>
+                                <li class="active"><a href="picture.html"><i class="fa fa-magic"></i>拿手好菜</a></li>
+                                <li class="active"><a href="booking.html"><i class="fa fa-bookmark"></i>座位预订</a></li>
+                                <li class="active"><a href="archives.html"><i class="fa fa-balance-scale"></i>邻里故事</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md4">
+                        <div class="single-widget contact">
+                            <h2 style="font-size: 16px;font-family: Roboto">联系我们</h2>
+                            <ul class="list">
+                                <li><i class="fa fa-address-book-o"></i>上海市 杨浦区 国定路333号 三号湾广场2楼 F207室</li>
+                                <li><i class="fa fa-phone-square"></i>（021）65652768 </li>
+                                <li><i class="fa fa-calendar-times-o"></i>周一至周日 11:00-14:00 16:30-21:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="layui-row">
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 text-center">
+                        <a rel="nofollow" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="color: #1d75b3">倪奕玮 22210130116  赖苏延 22210130098 黄辰雨 22210130092 制作 </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../static/lib/layui/layui.js"></script>
+    <script src="../static/lib/js/jquery-2.2.3.min.js"></script>
+    <script src="../static/lib/js/wow.min.js" ></script>
+    <script src="../static/lib/js/index.js" ></script>
+    <script src="../static/lib/js/bootstrap.js" ></script>
+
+
+
+    <script>
+
+
+        $('.menu.toggle').click(function () {
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+
+        $('.ui.dropdown').dropdown({
+            on : 'hover'
+        });
+
+    </script>
+
+    <script>
+        var myVideo1=document.getElementById("video1");
+
+        function playPause()
+        {
+            myVideo1.pause();
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width" />
+    <title>邻里川菜馆</title>
+    <link href="../static/image/logo.png" rel="icon" type="image/x-ico">
+    <link href="../static/lib/layui/css/layui.css" rel="stylesheet" type="text/css">
+    <link href="../static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+    <link href="../static/css/booking_index.css" rel="stylesheet" type="text/css" >
+    <link href="../static/css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="../static/css/theme.css" rel="stylesheet" type="text/css">
+    <link href="../static/css/sjy_font.css" rel="stylesheet" type="text/css" >
+
+
+
+</head>
+<body>
+
+<div id="menu" class="hover_animation menu_open" data-mark="false">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<div id="navgation" class="navgation navgation_close"  >
+    <ul class="point">
+        <li><a href="index.html">关于邻里</a></li>
+        <li><a href="picture.html">拿手好菜</a></li>
+        <li><a href="booking.html">座位预订</a></li>
+        <li><a href="archives.html">邻里故事</a></li>
+    </ul>
+    <div class="logo" >
+        <div >
+            <img src="../static/image/logo.png" alt="" style="height: auto;width: 150px">
+        </div>
+    </div>
+</div>
+
+<div class="section" id="section1">
+    <div class="fp-tablecell">
+        <div class="page1">
+            <div class="nav wow zoomIn" data-wow-duration="2s">
+                <h1 style=" text-shadow: 2px 2px 2px #622D2E;">座位预订</h1>
+                <p style="font-size: 16px!important; text-shadow: 2px 2px 2px #622D2E;">邻里·共赴之筵<br>开启下一场邻里之旅</p>
+            </div>
+            <a class="next wow fadeInUp" data-wow-duration="2s" id="next"></a>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="section3">
+
+    <div class="align-items-center d-flex cover section-aquamarine py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 p-2 align-self-center text-lg-left text-center">
+                    <h1 class="mb-0 mt-5 display-4">邻里川菜馆</h1><br>
+                    <h2 class="mb-5" style="line-height: 30px">温 暖 你 的 是 美 食<br>感 动 你 的 是 故 事</h2>
+                </div>
+                <div class="col-lg-3 p-2">
+                    <form class="p-4 bg-light" method="post" action="#">
+                        <h1 class="mb-4 text-center" style="font-family: 华文楷体">预订</h1>
+                        <div class="form-group" > <label>姓名</label>
+                            <input class="form-control" placeholder="输入您的称呼"> </div><br>
+                        <div class="form-group"> <label>到店时间</label>
+                            <input type="time" class="form-control" placeholder="--"> </div><br>
+                        <div class="form-group"> <label >到店人数</label>
+                            <input type="number" class="form-control" min="0" placeholder="输入宾客人数"onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"> </div><br>
+                        <div class="form-group"> <label>电话号码</label>
+                            <input class="form-control" placeholder="输入电话号码"> </div><br>
+                        <button type="submit" class="btn mt-4 btn-block p-2 btn-primary"><b style="font-size: 16px!important;font-family: 华文细黑!important;">现在预订</b></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+
+</div>
+<footer class="footer wow fadeInUp" id="contact">
+    <div class="footer-top">
+        <div class="container">
+            <div class="layui-row">
+                <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                    <div class="single-widget about">
+                        <div class="footer-logo">
+                            <h2 style="font-size: 16px;font-family: Roboto">邻里川菜馆</h2>
+                        </div>
+                        <p>比川菜更浓的是邻里的味道</p>
+                    </div>
+                </div>
+
+
+                <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                    <div class="single-widget">
+                        <h2 style="font-size: 16px;font-family: Roboto">了解更多</h2>
+                        <ul class="social-icon">
+                            <li class="active"><a href="index.html"><i class="fa fa-book"></i>关于邻里</a></li>
+                            <li class="active"><a href="picture.html"><i class="fa fa-magic"></i>拿手好菜</a></li>
+                            <li class="active"><a href="booking.html"><i class="fa fa-bookmark"></i>座位预订</a></li>
+                            <li class="active"><a href="archives.html"><i class="fa fa-balance-scale"></i>邻里故事</a></li>>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="layui-col-xs12 layui-col-sm12 layui-col-md4">
+                    <div class="single-widget contact">
+                        <h2 style="font-size: 16px;font-family: Roboto">联系我们</h2>
+                        <ul class="list">
+                            <li><i class="fa fa-address-book-o"></i>上海市 杨浦区 国定路333号 三号湾广场2楼 F207室</li>
+                            <li><i class="fa fa-phone-square"></i>（021）65652768 </li>
+                            <li><i class="fa fa-calendar-times-o"></i>周一至周日 11:00-14:00 16:30-21:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="layui-row">
+                <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 text-center">
+                    <a rel="nofollow" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" style="color: #1d75b3">倪奕玮 22210130116  赖苏延 22210130098 黄辰雨 22210130092 制作 </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="../static/lib/layui/layui.js"></script>
+<script src="../static/lib/js/wow.min.js" ></script>
+<script src="../static/lib/js/index.js" ></script>
+
+
+</body>
+</html>
